@@ -11,12 +11,15 @@ h1 {
 
 .post {
     width: 860px;
-    height: 250px;
+    height: 275px;
     background-color: #f3f8f3;
     border-radius: 5px;
     border: solid;
     border-color: #f3f8f3;
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .center {
@@ -27,5 +30,14 @@ h1 {
 
 textarea {
     resize: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 
+#title {
+    margin-bottom: 25px;
+}
+
+#text {
+    margin-bottom: 25px;
 }
