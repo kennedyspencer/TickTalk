@@ -24,7 +24,9 @@ h1 {
 
 .center {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px
 }
 
 
@@ -61,4 +63,21 @@ textarea {
     display: flex;
     justify-content: right;
     margin-right: 25px;
+}
+
+.submission {
+    display: flex;
+    width: 860px;
+    height: 275px;
+    background-color: #f3f8f3;
+    border-radius: 5px;
+    border: solid;
+    border-color: #f3f8f3;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+h1 {
+    color: black;
 }
