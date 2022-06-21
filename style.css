@@ -73,11 +73,13 @@ textarea {
     border-radius: 5px;
     border: solid;
     border-color: #f3f8f3;
-    justify-content: center;
     flex-direction: column;
-    gap: 25px;
 }
 
 h1 {
     color: black;
+}
+
+p {
+    margin-left: 20px;
 }
